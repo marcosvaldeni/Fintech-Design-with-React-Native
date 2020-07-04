@@ -28,11 +28,7 @@ export default function Tabs({ translateY }) {
       <TabsContainer>
         <TabItem>
           <Icon name="person-add" size={24} color="#FFF" />
-          <TabText>Refer friend</TabText>
-        </TabItem>
-        <TabItem>
-          <Icon name="chat-bubble-outline" size={24} color="#FFF" />
-          <TabText>Request</TabText>
+          <TabText>Refer friends</TabText>
         </TabItem>
         <TabItem>
           <Icon name="arrow-downward" size={24} color="#FFF" />
@@ -41,6 +37,14 @@ export default function Tabs({ translateY }) {
         <TabItem>
           <Icon name="arrow-upward" size={24} color="#FFF" />
           <TabText>Transfer</TabText>
+        </TabItem>
+        <TabItem>
+          <Icon name="receipt" size={24} color="#FFF" />
+          <TabText>Pay a Bill</TabText>
+        </TabItem>
+        <TabItem>
+          <Icon name="update" size={24} color="#FFF" />
+          <TabText>Direct Debits</TabText>
         </TabItem>
         <TabItem>
           <Icon name="lock" size={24} color="#FFF" />

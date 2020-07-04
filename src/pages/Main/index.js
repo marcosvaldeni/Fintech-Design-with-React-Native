@@ -52,11 +52,11 @@ export default function Main() {
       }
 
       Animated.timing(translateY, {
-        toValue: opened ? 380 : 0,
-        duration: 300,
+        toValue: opened ? 405 : 0,
+        duration: 200,
         useNativeDriver: true,
       }).start(() => {
-        offset = opened ? 380 : 0;
+        offset = opened ? 405 : 0;
         translateY.setOffset(offset);
         translateY.setValue(0);
       });
@@ -66,7 +66,6 @@ export default function Main() {
   return (
     <Container>
       <Header />
-
 
       <Content>
         <Menu translateY={translateY}/>
@@ -78,8 +77,8 @@ export default function Main() {
           <Card style={{
                 transform: [{
                     translateY: translateY.interpolate({
-                      inputRange: [-350, 0, 380],
-                      outputRange: [-50, 0, 380],
+                      inputRange: [-350, 0, 405],
+                      outputRange: [-50, 0, 405],
                       extrapolate: 'clamp',
                     })
                   }]
@@ -89,19 +88,18 @@ export default function Main() {
               <Icon name="visibility-off" size={28} color="#666"/>
             </CardHeader>
             <CardContent>
-              <Title>Balance Avaliable</Title>
-              <Description>€ 7,123.22</Description>
+              <Title>Available Funds</Title>
+              <Description>€ 2,123.22</Description>
             </CardContent>
             <CardFooter>
               <Annotation>
-                Transf of € 100.00 recived from Cristian Fernands.
+                € 100.00 Transfer received from Ciara Sullivan today at 19:30h.
               </Annotation>
             </CardFooter>
           </Card>
         </PanGestureHandler>
 
         </Content>
-
 
       <Tabs translateY={translateY}/>
     </Container>

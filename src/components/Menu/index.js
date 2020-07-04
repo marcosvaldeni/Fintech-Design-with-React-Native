@@ -41,11 +41,11 @@ export default function Menu({ translateY }) {
         </NavItem>
         <NavItem>
           <Icon name="credit-card" size={20} color="#FFF" />
-          <NavText>Card Sttings</NavText>
+          <NavText>Card Settings</NavText>
         </NavItem>
         <NavItem>
           <Icon name="smartphone" size={20} color="#FFF" />
-          <NavText>App Sttings</NavText>
+          <NavText>App Settings</NavText>
         </NavItem>
         <NavItem />
       </Nav>
