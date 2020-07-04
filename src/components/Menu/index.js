@@ -13,9 +13,14 @@ import {
   SignOutButtonText
 } from './styles';
 
-export default function Menu() {
+export default function Menu({ translateY }) {
   return (
-    <Container>
+    <Container style={{
+      opacity:translateY.interpolate({
+        inputRange: [0, 150],
+        outputRange: [0, 1]
+      }),
+    }}>
       <Code>
       <QRCode 
           value="https://www.linkedin.com/in/marcos-v-lucas/"
