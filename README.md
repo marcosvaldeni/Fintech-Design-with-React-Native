@@ -9,7 +9,7 @@
 ---
 
 # :pushpin: Table of Contents
-* [Made With](#rocket-made)
+* [Made With](#rocket-made-with)
 * [Installation](#construction_worker-installation)
 * [Getting Started](#runner-getting-started)
 * [Found a bug? Missing a specific feature?](#bug-issues)
@@ -22,8 +22,8 @@
 * 💫 React Native 
 * 🤳🏻 React Native Gesture Handler 
 * 💄 Prettier & EsLint
-* 💅🏻 Styled Componets
-* 📟 React Rative QRcode svg
+* 💅🏻 Styled Components
+* 📟 React Native QRcode svg
 
 # :construction_worker: Installation
 
@@ -35,7 +35,7 @@ SSH URLs provide access to a Git repository via SSH, a secure protocol. If you h
 
 ```git clone github.com/marcosvaldeni/Fintech-Design-with-React-Native.git```
 
-**Install dependencie**
+**Install dependencies**
 
 `yarn`
 
@@ -61,7 +61,7 @@ For Android simulator device
 
 # :bug: Issues
 
-Feel free to **file a new issue** with a respective title and description on the the [HotBerry](https://github.com/marcosvaldeni/Fintech-Design-with-React-Native/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**! Have a look at our [contribution guidelines](https://github.com/marcosvaldeni/Fintech-Design-with-React-Native/blob/master/CONTRIBUTING.md) to find out about the coding standards.
+Feel free to **file a new issue** with a respective title and description on the the [HotBerry](https://github.com/marcosvaldeni/Fintech-Design-with-React-Native/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**! Have a look at our [contribution guidelines](https://github.com/marcosvaldeni/Fintech-Design-with-React-Native/blob/master/CONTRIBUTING.md) to find out about the coding standards.
 
 # :tada: Contributing
 
