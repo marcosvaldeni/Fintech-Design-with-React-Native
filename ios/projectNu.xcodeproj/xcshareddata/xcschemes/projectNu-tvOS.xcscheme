@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "nubank-tvOS.app"
-               BlueprintName = "nubank-tvOS"
-               ReferencedContainer = "container:nubank.xcodeproj">
+               BuildableName = "projectNu-tvOS.app"
+               BlueprintName = "projectNu-tvOS"
+               ReferencedContainer = "container:projectNu.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "nubank-tvOSTests.xctest"
-               BlueprintName = "nubank-tvOSTests"
-               ReferencedContainer = "container:nubank.xcodeproj">
+               BuildableName = "projectNu-tvOSTests.xctest"
+               BlueprintName = "projectNu-tvOSTests"
+               ReferencedContainer = "container:projectNu.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "nubank-tvOS.app"
-            BlueprintName = "nubank-tvOS"
-            ReferencedContainer = "container:nubank.xcodeproj">
+            BuildableName = "projectNu-tvOS.app"
+            BlueprintName = "projectNu-tvOS"
+            ReferencedContainer = "container:projectNu.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "nubank-tvOS.app"
-            BlueprintName = "nubank-tvOS"
-            ReferencedContainer = "container:nubank.xcodeproj">
+            BuildableName = "projectNu-tvOS.app"
+            BlueprintName = "projectNu-tvOS"
+            ReferencedContainer = "container:projectNu.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

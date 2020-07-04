@@ -1,10 +1,9 @@
-package com.nubank;
-
-import com.facebook.react.ReactRootView;
-import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
-import com.facebook.react.ReactActivityDelegate;
+package com.projectnu;
 
 import com.facebook.react.ReactActivity;
+import com.facebook.react.ReactActivityDelegate;
+import com.facebook.react.ReactRootView;
+import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
 
 public class MainActivity extends ReactActivity {
 
@@ -14,7 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "nubank";
+    return "projectNu";
   }
 
   @Override
@@ -26,5 +25,4 @@ public class MainActivity extends ReactActivity {
       }
     };
   }
-  
 }

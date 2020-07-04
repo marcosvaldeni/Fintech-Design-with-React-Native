@@ -44,8 +44,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'nubank' do
-  # Pods for nubank
+target 'projectNu' do
+  # Pods for projectNu
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -79,7 +79,7 @@ target 'nubank' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
-  target 'nubankTests' do
+  target 'projectNuTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -96,10 +96,10 @@ target 'nubank' do
   end
 end
 
-target 'nubank-tvOS' do
-  # Pods for nubank-tvOS
+target 'projectNu-tvOS' do
+  # Pods for projectNu-tvOS
 
-  target 'nubank-tvOSTests' do
+  target 'projectNu-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
