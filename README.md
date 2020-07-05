@@ -69,7 +69,7 @@ Check out the [contributing](https://github.com/marcosvaldeni/Fintech-Design-wit
 
 # :closed_book: License
 
-Released in 2019.
+Released in 2020.
 This project is under the [MIT license](https://github.com/marcosvaldeni/Fintech-Design-with-React-Native/blob/master/LICENSE).
 
 Made with love by [Marcos Lucas](https://github.com/marcosvaldeni) 💚🚀
